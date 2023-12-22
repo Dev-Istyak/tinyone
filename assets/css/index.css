@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 
 *{
-    margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none !important;
+    text-decoration: none !important;
     font-family: 'PT Sans', sans-serif;
 }
-.main_part{
-    background: #fbdb00;
-}
+
 :root{
     --color1: #010101;
     --color2: #fcdb00;
@@ -17,6 +17,7 @@
     --color6: #555555;
     --phcolor: #898989;
 }
+
 .header_part{
     background: var(--color2);
 }
